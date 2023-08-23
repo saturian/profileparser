@@ -11,7 +11,7 @@ from telethon import functions, types
 from telethon.tl.functions.messages import AddChatUserRequest
 from telethon.tl.types import InputPhoneContact
 from telethon.tl.functions.contacts import ImportContactsRequest
-from master_darknet import code
+from addon import code
 from telethon.tl.functions.messages import SendReactionRequest
 from telethon.tl.functions.users import GetFullUserRequest
 import os, sys
@@ -30,7 +30,7 @@ import os, sys
 import time
 from telethon.sync import TelegramClient
 from telethon.tl.functions.messages import GetDialogsRequest
-from master_darknet import code
+from addon import code
 from telethon.tl.types import InputPeerEmpty, InputPeerChannel, InputPeerUser
 from telethon.errors.rpcerrorlist import PeerFloodError, UserPrivacyRestrictedError
 from telethon.tl.functions.channels import InviteToChannelRequest
